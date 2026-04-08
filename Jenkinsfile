@@ -24,7 +24,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running tests on calculator functions...'
-                sh 'python3 test_calculator.py'
+                sh 'python3 calculatorTest.py'
             }
         }
  
